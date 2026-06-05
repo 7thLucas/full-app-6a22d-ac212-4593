@@ -1,0 +1,30 @@
+<style>
+  .mode-landscape .sl-split { flex-direction: row; }
+  .mode-portrait .sl-split { flex-direction: column; }
+  .mode-landscape .sl-visual { width: 34%; }
+  .mode-portrait .sl-visual { min-height: 30%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-split flex w-full h-full">
+    <div class="flex-1 p-12 flex flex-col justify-center">
+      <div class="text-xs font-semibold tracking-widest uppercase text-indigo-600">The Foundation</div>
+      <div class="mt-8 grid gap-8">
+        <div class="rounded-2xl border border-slate-200 p-7">
+          <div class="text-sm font-bold uppercase tracking-wide text-rose-600">The Problem</div>
+          <p class="mt-3 text-lg text-slate-700 leading-relaxed">
+            Presenters and content creators waste hours turning raw material — articles, PDFs, transcripts — into clean, natural-sounding on-camera scripts, and they lack a smooth, professional teleprompter to actually read them.
+          </p>
+        </div>
+        <div class="rounded-2xl bg-slate-900 p-7">
+          <div class="text-sm font-bold uppercase tracking-wide text-indigo-300">The Solution</div>
+          <p class="mt-3 text-lg text-slate-100 leading-relaxed">
+            Paste or upload anything and instantly get a casual, easy-to-read news-anchor script. Edit it naturally, then open a cinematic full-screen teleprompter built for confident, on-camera delivery.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="sl-visual relative overflow-hidden">
+      <img class="absolute inset-0 w-full h-full object-cover" src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=minimalist%20clean%20workspace%20documents%20PDF%20transcript%20transforming%20into%20a%20script%20on%20laptop%20soft%20whitespace%20modern%20editorial" alt="Material to script" />
+    </div>
+  </div>
+</section>
