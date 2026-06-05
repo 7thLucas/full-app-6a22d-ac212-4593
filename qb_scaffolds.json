@@ -1,0 +1,14 @@
+[
+  {
+    "name": "agentic",
+    "type": "scaffold",
+    "status": "success",
+    "error_msg": ""
+  },
+  {
+    "name": "uploader",
+    "type": "scaffold",
+    "status": "success",
+    "error_msg": ""
+  }
+]
