@@ -1,0 +1,28 @@
+<style>
+  .mode-landscape .sl-grid { flex-direction: row; }
+  .mode-portrait .sl-grid { flex-direction: column; }
+  .mode-portrait .sl-visual { min-height: 38%; }
+  .mode-landscape .sl-visual { width: 42%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-grid flex w-full h-full">
+    <div class="flex-1 flex flex-col justify-between p-12">
+      <div>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900 text-white text-xs font-semibold tracking-widest uppercase">AnchorFlow</div>
+        <h1 class="mt-8 text-6xl font-black leading-[1.05] tracking-tight text-slate-900">
+          From raw material<br/>to <span class="text-indigo-600">camera-ready</span><br/>in one read.
+        </h1>
+        <p class="mt-6 text-xl text-slate-600 max-w-xl leading-relaxed">
+          Turn any article, PDF, or transcript into a clean, natural-sounding anchor script — then read it in a smooth, cinematic teleprompter.
+        </p>
+      </div>
+      <div class="mt-10">
+        <data-attribution />
+      </div>
+    </div>
+    <div class="sl-visual relative overflow-hidden">
+      <img class="absolute inset-0 w-full h-full object-cover" src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=cinematic%20dark%20studio%20teleprompter%20screen%20glowing%20soft%20white%20text%20on%20black%20premium%20TV%20production%20news%20anchor%20setup%20moody%20lighting" alt="Teleprompter studio" />
+      <div class="absolute inset-0 bg-gradient-to-tr from-slate-900/40 to-transparent"></div>
+    </div>
+  </div>
+</section>
